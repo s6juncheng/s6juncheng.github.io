@@ -7,8 +7,8 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : ""
-title_separator          : ""
+title                    : "Jun Cheng"
+title_separator          : "-"
 name                     : &name "Jun Cheng"
 description              : &description "machine learning for biomedicine"
 url                      : https://s6juncheng.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
