@@ -29,17 +29,26 @@ MMSplice is the winning model for the [CAGI5 public splicing challenge](https://
 has been integrated to the popular variant effect predictor [CADD](https://cadd.gs.washington.edu/news). 
 
 ![](/images/ISM.png)
-*Figure 1*
+<sub>**Figure 1** In-silico mutagenesis analysis of example MMSplice predictions. Red color indicates variant increase Ψ while blue color 
+indicates variant decrease Ψ. Alphabet letter height indicates effect magnitude. Gray bars are gene structure schema, 
+thick ones are exons while thin ones are introns.</sub>
 
 The limitation of MMSplice and other methods on variant interpretation for splicing is the lack of tissue specificity. 
 To overcome this limitation, we developed MTSplice which combines MMSplice and a tissue-specific splicing level prediction model to predict tissue-specific variant effects.
 We show that MTSplice can capture tissue-specific disease signals related to Autism Spectrum Disorder when comparing the predicted functional scores in the proband group and the unaffected sibling control group (Figure 2).
 
 ![](/images/ASD.png)
-*Figure 2*
+<sub>**Figure 2** Brain-specific mutational burden on splicing in ASD. (A). Tissue-agnostic variant effect prediction with MMSplice. 
+Splice-region de novo mutations (n=3,884) of the proband group (gray) have significantly lower predicted logit(Ψ) according to MMSplice 
+compared to those of the unaffected sibling group (orange). The effect size is larger for variants in LoF-intolerant genes (n=1,081). 
+Shown are the means and standard 95% confidence intervals. P-values from one-sided Wilcoxon test. (B). Tissue-specific variant-effect prediction with MTSplice. 
+Distribution of effect size (difference of average logit() for proband versus control siblings de novo mutations) for brain tissues (right boxes) and other 
+tissues (left boxes), and for all de novo mutations (left panel) or de novo mutations in LoF-intolerant genes (right panel) with MTSplice. 
+The predicted effect sizes are more pronounced for brain tissues.</sub>
 
 
-## Immunogenicity prediction for vaccine design
+
+## Immunogenicity Prediction for Vaccine Design
 Genetic mutations in cancer cells are the source of neoantigens, which can be used to design vaccines. 
 Because neoantigen are truly tumor specific, they are ideal targets for cancer immunotherapies. 
 Besides predicting the functional and disease impact of mutations, I’m also interested in integrating variant effect predictors with immunogenicity predicting models to design therapeutic vaccines.
@@ -49,7 +58,7 @@ Each of the steps is highly selective and specific.  Machine learning models hav
 response steps and are widely used for vaccine design. However, the performance in many cases are very limited. 
 I'm interested in developing improved models for 1) peptide-MHC interaction prediction, 2) pMHC-TCR binding prediction, 3) neoantigen discovery from new sources.
 
-## Improved understanding of biological systems 
+## Improved Understanding of Biological Systems 
 Beyond developing new methods to achieve prediction tasks, I’m also interested in applying computational methods to improve our understanding of fundamental 
 biology systems. Such projects will be in collaboration with experimental biologists to generate data and validate hypotheses. 
 
