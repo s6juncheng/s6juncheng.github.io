@@ -23,8 +23,8 @@ A challenging task in human genetics is to precisely locate disease causing muta
 
 A part of my research is to train machine learning models taking genetic variants as input to predict their functional and disease impact.
 My previous research in this area focused on RNA splicing and RNA degradation. 
-I trained a neural network model from large-scale perturbation assays and genome annotation data to predict variant effects on splicing. 
-The model, MMSplice, can precisely predict splicing level change subject to variants (Figure 1) (Cheng et al., 2019, Genome Biology). 
+We trained a neural network model from large-scale perturbation assays and genome annotation data to predict variant effects on splicing. 
+The model, MMSplice, can precisely predict splicing level change subject to variants (Figure 1) ([Cheng et al., 2019](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1653-z)). 
 MMSplice is the winning model for the [CAGI5 public splicing challenge](https://genomeinterpretation.org/content/vex-seq) and 
 has been integrated to the popular variant effect predictor [CADD](https://cadd.gs.washington.edu/news). 
 
@@ -34,7 +34,7 @@ indicates variant decrease Ψ. Alphabet letter height indicates effect magnitude
 thick ones are exons while thin ones are introns.</sub>
 
 The limitation of MMSplice and other methods on variant interpretation for splicing is the lack of tissue specificity. 
-To overcome this limitation, we developed MTSplice which combines MMSplice and a tissue-specific splicing level prediction model to predict tissue-specific variant effects.
+To overcome this limitation, we developed MTSplice which combines MMSplice and a tissue-specific splicing level prediction model to predict tissue-specific variant effects ([Cheng et al., 2020](https://www.biorxiv.org/content/10.1101/2020.06.07.138453v1)).
 We show that MTSplice can capture tissue-specific disease signals related to Autism Spectrum Disorder when comparing the predicted functional scores in the proband group and the unaffected sibling control group (Figure 2).
 
 ![](/images/ASD.png)
@@ -42,7 +42,7 @@ We show that MTSplice can capture tissue-specific disease signals related to Aut
 Splice-region de novo mutations (n=3,884) of the proband group (gray) have significantly lower predicted logit(Ψ) according to MMSplice 
 compared to those of the unaffected sibling group (orange). The effect size is larger for variants in LoF-intolerant genes (n=1,081). 
 Shown are the means and standard 95% confidence intervals. P-values from one-sided Wilcoxon test. (B). Tissue-specific variant-effect prediction with MTSplice. 
-Distribution of effect size (difference of average logit() for proband versus control siblings de novo mutations) for brain tissues (right boxes) and other 
+Distribution of effect size (difference of average logit(Ψ) for proband versus control siblings de novo mutations) for brain tissues (right boxes) and other 
 tissues (left boxes), and for all de novo mutations (left panel) or de novo mutations in LoF-intolerant genes (right panel) with MTSplice. 
 The predicted effect sizes are more pronounced for brain tissues.</sub>
 
@@ -63,10 +63,15 @@ Beyond developing new methods to achieve prediction tasks, I’m also interested
 biology systems. Such projects will be in collaboration with experimental biologists to generate data and validate hypotheses. 
 
 We identified a circRNA (circSfl) with a computational method developed by myself. In collaboration with colleagues at MPI for Biology of Ageing, 
-we showed that overexpression of circSfl can extend the lifespan of fruit flies (Weigelt et al., 2020). 
+we showed that overexpression of circSfl can extend the lifespan of fruit flies ([Weigelt et al., 2020](https://www.sciencedirect.com/science/article/pii/S1097276520303968)). 
 In another study in collaboration with colleagues at MPI for Biophysical Chemistry, 
-we found and validated a 3’UTR motif ATATTC that destabilizes mRNA transcripts (Cheng et al., 2017). 
+we found and validated a 3’UTR motif ATATTC that destabilizes mRNA transcripts ([Cheng et al., 2017](https://rnajournal.cshlp.org/content/23/11/1648)). 
 The same study also found codon usage explains most of the mRNA half-life variability across genes.
 
 ## Others
-Other than the above topics, I'm also interested in 1) developing cis-trans models for RNA-protein binding, 2) single-cell multiomics data integration, 3) data efficient machine learning methods.
+Other than the above topics, I'm also interested in:
+ 1) Graph representation learning
+ 2) Biological sequence representation learning
+ 3) RNA binding protein binding site prediction 
+ 4) Single-cell multiomics data integration
+ 5) Data efficient machine learning methods
