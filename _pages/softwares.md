@@ -21,7 +21,7 @@ MTSplice enhances MMSplice by predicting tissue-specific variant effect.
 Currently, Muhammed Hasan Çeli and I are maintaining the tool. 
 
 
-## [ggpval](s6juncheng.github.io/ggpval)
+## [ggpval](https://s6juncheng.github.io/ggpval)
 
 A R package to add statistical test and *P*-value annotations to ``ggpplot``. 
 Currently, the user community and myself are maintaining the tool. 
