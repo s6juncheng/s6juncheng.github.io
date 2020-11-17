@@ -36,6 +36,6 @@ Currently, the Dieterich lab is maintaining the tool.
 
 I contributed the following projects:
 
-## [kipoi](kipoi.org)
+## [kipoi](https://kipoi.org)
 Kipoi (pronounce: kípi; from the Greek κήποι: gardens) is an API and a repository of ready-to-use trained models for genomics. 
 It currently contains 2133 different models, covering canonical predictive tasks in transcriptional and post-transcriptional gene regulation. 
