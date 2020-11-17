@@ -18,12 +18,12 @@ For the research topics I'm interested in, please check the [Research](https://s
 Predict variant effect on splicing. MMSplice is the winning model of the [CAGI5 splicing challenge](https://genomeinterpretation.org/content/vex-seq). 
 MMSplice is also integrated in the popular general purpose variant effect predictor [CADD](https://cadd.gs.washington.edu/news).
 MTSplice enhances MMSplice by predicting tissue-specific variant effect.
-Currently, Muhammed Hasan Çeli and I are maintaining the tool. 
+Currently, Muhammed Hasan Çelik and I are maintaining the tool. 
 
 
 ## [ggpval](https://s6juncheng.github.io/ggpval)
 
-A R package to add statistical test and *P*-value annotations to ``ggpplot``. 
+A R package to add statistical test and *P*-value annotations to ``ggpplot2``. 
 Currently, the user community and myself are maintaining the tool. 
 
 
