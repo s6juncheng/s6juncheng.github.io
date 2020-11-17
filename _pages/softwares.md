@@ -13,7 +13,7 @@ These tools are typically implementation of machine learning models originated f
 For the research topics I'm interested in, please check the [Research](https://s6juncheng.github.io/research/) site. 
 
 ---
-## [MMSplice & MTSplice](https://github.com/gagneurlab/MMSplice_MTSplic)
+## [MMSplice & MTSplice](https://github.com/gagneurlab/MMSplice_MTSplice)
 
 Predict variant effect on splicing. MMSplice is the winning model of the [CAGI5 splicing challenge](https://genomeinterpretation.org/content/vex-seq). 
 MMSplice is also integrated in the popular general purpose variant effect predictor [CADD](https://cadd.gs.washington.edu/news).
