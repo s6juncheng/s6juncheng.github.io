@@ -10,9 +10,11 @@ redirect_from:
 
 {% include base_path %}
 
-Hi I'm Jun Cheng, a researcher interested in machine learning for biomedicine.
-I did my PhD at the Technical University of Munich with [Julien Gagneur](https://www.in.tum.de/gagneurlab/home/). 
-I'm currently a research scientist at NEC labs. 
+I'm a researcher interested in machine learning for biomedicine.
+I did my PhD at the Technical University of Munich (TUM) with [Julien Gagneur](https://www.in.tum.de/gagneurlab/home/) on computational biology. 
+I was also a visiting student with [Anshul Kundaje](https://sites.google.com/site/anshulkundaje/Home).
+As a master student, I worked with [Christoph Dieterich](http://dieterichlab.org/) on circRNAs and [Maria von Korff Schmising](https://www.mpipz.mpg.de/von_korff) on flowering time control.
+Currently I'm a research scientist at NEC labs. 
 
 ## My work and research
 My research focuses on the development and application of machine learning methods on large-scale biological data for more precise understanding of human disease. 
