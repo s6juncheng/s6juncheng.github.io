@@ -20,14 +20,14 @@ MMSplice is also integrated in the popular general purpose variant effect predic
 MTSplice enhances MMSplice by predicting tissue-specific variant effect.
 Currently, Muhammed Hasan Çeli and I are maintaining the tool. 
 
----
-### [ggpval](s6juncheng.github.io/ggpval)
+
+## [ggpval](s6juncheng.github.io/ggpval)
 
 A R package to add statistical test and *P*-value annotations to ``ggpplot``. 
 Currently, the user community and myself are maintaining the tool. 
 
----
-### [DCC](https://github.com/dieterich-lab/DCC)
+
+## [DCC](https://github.com/dieterich-lab/DCC)
 
 A python package to detect circRNAs from next-generation sequence data.
 Currently, the Dieterich lab is maintaining the tool.
@@ -36,6 +36,6 @@ Currently, the Dieterich lab is maintaining the tool.
 
 I contributed the following projects:
 
-### [kipoi](kipoi.org)
+## [kipoi](kipoi.org)
 Kipoi (pronounce: kípi; from the Greek κήποι: gardens) is an API and a repository of ready-to-use trained models for genomics. 
 It currently contains 2133 different models, covering canonical predictive tasks in transcriptional and post-transcriptional gene regulation. 

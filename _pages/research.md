@@ -7,15 +7,57 @@ redirect_from:
   - /research.html
 ---
 
-Recent years have seen revolutionary progress in high throughput biology and machine learning, yet much is to be done to combine the progress in these two fields. My research focuses on the development and application of machine learning methods on large-scale biological data for more precise understanding of human disease. The methods can be used, for example, to diagnose genetic diseases, to predict cancer driver mutation, to stratify cancer patients, and to design effective vaccines. I’m passionate about drawing insights from complex biological data, developing methods to drive innovative research or having important practical applications. I’m also interested in pushing the state-of-the-art in machine learning.
+{% include base_path %}
 
-## Variant Effect Prediction
-Human genome encodes information about gene expression regulation, which is essential to an individual's wellbeing. However, our current understanding of genetic determinants of gene expression regulation is still limited. Consequently, we do not know the disease impact of most genetic variants, nor can we interpret most of the variants associated with diseases. A challenging task in human genetics is to precisely locate disease causing mutations among thousands of genetic variants found in any individual.
+Recent years have seen revolutionary progress in high throughput biology and machine learning, yet much is to be done to combine the progress in these two fields. 
+My research focuses on the development and application of machine learning methods on large-scale biological data for more precise understanding of human disease.
+The methods can be used, for example, to diagnose genetic diseases, to predict cancer driver mutation, to stratify cancer patients, and to design effective vaccines. 
+I’m passionate about drawing insights from complex biological data and developing methods with high impact applications. 
+I’m also interested in pushing the state-of-the-art in machine learning.
 
-Association studies such as genome-wide association study (GWAS) had great promise to find disease associated mutations. Despite its success, such approaches suffered greatly from three limitations. First, association studies need a very large sample size to have enough statistical power, therefore they are less likely to find rare variants (Schaub et al., 2012). This limitation is even more drastic for variants with tissue or cell type specific effects, since the biopsy collected are typically a mix of tissues and cell types. Second, due to linkage disequilibrium, association studies cannot precisely locate disease-causing variants. Third, association methods do not offer biological interpretation. For GWAS study, it is unclear what molecular impact the variants may have. Many GWAS hits are located far from any known genes or in deep introns, making them even harder to interpret (Gallagher and Chen-Plotkin, 2018). Even significant splicing QTLs may not directly affect splicing, they may affect the RNA stability of certain splicing isoforms instead.
+## Variant Effect Prediction with Machine Learning Models
+A human genome encodes information about gene expression regulation, which is essential to an individual's well-being. 
+However, our current understanding of genetic determinants of gene expression regulation is still limited. 
+Consequently, we do not know the disease impact of most genetic variants, nor can we interpret most of the variants associated with diseases. 
+A challenging task in human genetics is to precisely locate disease causing mutations among thousands of genetic variants found in any individual.
 
-On the other hand, Large genomics data are being collected and made available for research worldwide. Large-scale data consortiums like ENCODE (Consortium and The ENCODE Project Consortium, 2004), Roadmap Epigenomics Project (Roadmap Epigenomics Consortium et al., 2015) enabled training machine learning models to predict the effect of genetic mutations (Alipanahi et al., 2015; Zhou and Troyanskaya, 2015; Kelley, Snoek and Rinn, 2016). The consortiums provide open-access systematic datasets targeted for various aspects of gene expression regulation. This includes data at transcriptional regulation level (TF binding, DNA accessibility, DNA methylation) and post-transcriptional regulation level (RNA binding, RNA structure). Models trained on these datasets are able to locate functional relevant mutations (Zhou et al., 2018). Even though no causal relationship guaranteed, such models offer the possibility to precisely locate the causal mutations regardless of linkage disequilibrium and allele frequency (Zhou et al., 2018). Furthermore, since the models are trained from targeted assays, the scores predicted by the models are predicted scores of the assay measurement, e.g. certain TF binding scores. This offers more biological insights compared to methods solely based on associations.
+A part of my research is to train machine learning models taking genetic variants as input to predict their functional and disease impact.
+My previous research in this area focused on RNA splicing and RNA degradation. 
+I trained a neural network model from large-scale perturbation assays and genome annotation data to predict variant effects on splicing. 
+The model, MMSplice, can precisely predict splicing level change subject to variants (Figure 1) (Cheng et al., 2019, Genome Biology). 
+MMSplice is the winning model for the [CAGI5 public splicing challenge](https://genomeinterpretation.org/content/vex-seq) and 
+has been integrated to the popular variant effect predictor [CADD](https://cadd.gs.washington.edu/news). 
 
-Other than functional assays, large-scale perturbation assays also open the possibility to train variant effect prediction models. A prominent type of perturbation assay is the massively parallel reporter assay (MPRA). MPRA can test the functional impact of millions of sequences in parallel, offering powerful resources to train functional effect prediction models (Sample et al., 2019; Rosenberg et al., 2015; Cheng, et al., 2019a). 
+![](/images/ISM.png)
+*Figure 1*
 
-Similar large-scale assays are also being performed on single-cell level (Cao et al., 2020; Domcke et al., 2020). This opens even more opportunities to train models to relate genetic mutations to developmental disorders and tumorigenicity (Corces et al., 2020). 
+The limitation of MMSplice and other methods on variant interpretation for splicing is the lack of tissue specificity. 
+To overcome this limitation, we developed MTSplice which combines MMSplice and a tissue-specific splicing level prediction model to predict tissue-specific variant effects.
+We show that MTSplice can capture tissue-specific disease signals related to Autism Spectrum Disorder when comparing the predicted functional scores in the proband group and the unaffected sibling control group (Figure 2).
+
+![](/images/ASD.png)
+*Figure 2*
+
+
+## Immunogenicity prediction for vaccine design
+Genetic mutations in cancer cells are the source of neoantigens, which can be used to design vaccines. 
+Because neoantigen are truly tumor specific, they are ideal targets for cancer immunotherapies. 
+Besides predicting the functional and disease impact of mutations, I’m also interested in integrating variant effect predictors with immunogenicity predicting models to design therapeutic vaccines.
+
+Adaptive immunity is triggered by a series of processes involving antigen processing, presentation and recognition. 
+Each of the steps is highly selective and specific.  Machine learning models have long been applied to model different immune 
+response steps and are widely used for vaccine design. However, the performance in many cases are very limited. 
+I'm interested in developing improved models for 1) peptide-MHC interaction prediction, 2) pMHC-TCR binding prediction, 3) neoantigen discovery from new sources.
+
+## Improved understanding of biological systems 
+Beyond developing new methods to achieve prediction tasks, I’m also interested in applying computational methods to improve our understanding of fundamental 
+biology systems. Such projects will be in collaboration with experimental biologists to generate data and validate hypotheses. 
+
+We identified a circRNA (circSfl) with a computational method developed by myself. In collaboration with colleagues at MPI for Biology of Ageing, 
+we showed that overexpression of circSfl can extend the lifespan of fruit flies (Weigelt et al., 2020). 
+In another study in collaboration with colleagues at MPI for Biophysical Chemistry, 
+we found and validated a 3’UTR motif ATATTC that destabilizes mRNA transcripts (Cheng et al., 2017). 
+The same study also found codon usage explains most of the mRNA half-life variability across genes.
+
+## Others
+Other than the above topics, I'm also interested in 1) developing cis-trans models for RNA-protein binding, 2) single-cell multiomics data integration, 3) data efficient machine learning methods.
