@@ -16,6 +16,8 @@ I was also a visiting student with [Anshul Kundaje](https://sites.google.com/sit
 As a master student, I worked with [Christoph Dieterich](http://dieterichlab.org/) on circRNAs and [Maria von Korff Schmising](https://www.mpipz.mpg.de/von_korff) on flowering time control.
 Currently I'm a research scientist at NEC labs. 
 
+Email: s6juncheng [at] gmail [dot] com
+
 ## My work and research
 My research focuses on the development and application of machine learning methods on large-scale biological data for more precise understanding of human disease. 
 The methods can be used, for example, to diagnose genetic diseases, to predict cancer driver mutation, to stratify cancer patients, 
