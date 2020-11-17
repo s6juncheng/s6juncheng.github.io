@@ -13,19 +13,20 @@ These tools are typically implementation of machine learning models originated f
 For the research topics I'm interested in, please check the [Research](https://s6juncheng.github.io/research/) site. 
 
 ---
+## [MMSplice & MTSplice](https://github.com/gagneurlab/MMSplice_MTSplic)
 
-<span style="color:CornflowerBlue; font-size=20pt" href="https://github.com/gagneurlab/MMSplice_MTSplic">MMSplice & MTSplice</span>
-
-| <img alt="" src="{{ base_path }}/images/ISM.png" style="width: 400px;"/> | Predict variant effect on splicing. MMSplice is the winning model of the [CAGI5 splicing challenge](https://genomeinterpretation.org/content/vex-seq). 
+Predict variant effect on splicing. MMSplice is the winning model of the [CAGI5 splicing challenge](https://genomeinterpretation.org/content/vex-seq). 
 MMSplice is also integrated in the popular general purpose variant effect predictor [CADD](https://cadd.gs.washington.edu/news).
 MTSplice enhances MMSplice by predicting tissue-specific variant effect.
-Currently, Muhammed Hasan Çeli and I are maintaining the tool. |
+Currently, Muhammed Hasan Çeli and I are maintaining the tool. 
 
+---
 ### [ggpval](s6juncheng.github.io/ggpval)
 
 A R package to add statistical test and *P*-value annotations to ``ggpplot``. 
 Currently, the user community and myself are maintaining the tool. 
 
+---
 ### [DCC](https://github.com/dieterich-lab/DCC)
 
 A python package to detect circRNAs from next-generation sequence data.
