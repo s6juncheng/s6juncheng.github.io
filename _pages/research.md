@@ -54,9 +54,12 @@ Because neoantigen are truly tumor specific, they are ideal targets for cancer i
 Besides predicting the functional and disease impact of mutations, I’m also interested in integrating variant effect predictors with immunogenicity predicting models to design therapeutic vaccines.
 
 Adaptive immunity is triggered by a series of processes involving antigen processing, presentation and recognition. 
-Each of the steps is highly selective and specific.  Machine learning models have long been applied to model different immune 
+Each of the steps is highly selective and specific (Figure 3). Machine learning models have long been applied to model different immune 
 response steps and are widely used for vaccine design. However, the performance in many cases are very limited. 
 I'm interested in developing improved models for 1) peptide-MHC interaction prediction, 2) pMHC-TCR binding prediction, 3) neoantigen discovery from new sources.
+
+![](/images/immue.png)
+<sub>**Figure 3** Antigen presentation. MHC molecules present antigens on the cell surface to T-cells to activate immune response. </sub>
 
 ## Improved Understanding of Biological Systems 
 Beyond developing new methods to achieve prediction tasks, I’m also interested in applying computational methods to improve our understanding of fundamental 
@@ -71,7 +74,11 @@ The same study also found codon usage explains most of the mRNA half-life variab
 ## Others
 Other than the above topics, I'm also interested in:
  1) Graph representation learning
+ 
  2) Biological sequence representation learning
+ 
  3) RNA binding protein binding site prediction 
+ 
  4) Single-cell multiomics data integration
+ 
  5) Data efficient machine learning methods

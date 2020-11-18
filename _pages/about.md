@@ -13,7 +13,7 @@ redirect_from:
 I'm a researcher interested in machine learning for biomedicine.
 I did my PhD at the Technical University of Munich (TUM) with [Julien Gagneur](https://www.in.tum.de/gagneurlab/home/) on computational biology. 
 I was also a visiting student with [Anshul Kundaje](https://sites.google.com/site/anshulkundaje/Home).
-As a master student, I worked with [Christoph Dieterich](http://dieterichlab.org/) on circRNAs and [Maria von Korff Schmising](https://www.mpipz.mpg.de/von_korff) on flowering time control.
+As a master student, I worked with [Christoph Dieterich](http://dieterichlab.org/) on circRNAs in Ageing and [Maria von Korff Schmising](https://www.mpipz.mpg.de/von_korff) on circadian clock of flowering time control.
 Currently I'm a research scientist at NEC labs. 
 
 Email: s6juncheng [at] gmail [dot] com
@@ -22,7 +22,7 @@ Email: s6juncheng [at] gmail [dot] com
 My research focuses on the development and application of machine learning methods on large-scale biological data for more precise understanding of human disease. 
 The methods can be used, for example, to diagnose genetic diseases, to predict cancer driver mutation, to stratify cancer patients, 
 and to design effective vaccines. I’m passionate about drawing insights from complex biological data, developing methods to 
-drive innovative research or having important practical applications. I’m also interested in pushing the state-of-the-art in machine learning.
+drive innovative research or to resolve important challenges in biology. I’m also interested in pushing the state-of-the-art in machine learning.
 
 For more detailed introduction about my research please refer to my [Research](https://s6juncheng.github.io/research/) and [Publications](https://s6juncheng.github.io/publications/).
 I also make my research accessible through open-source [Software](https://s6juncheng.github.io/software/).
