@@ -65,14 +65,22 @@ I'm interested in developing improved models for 1) peptide-MHC interaction pred
 Beyond developing new methods to achieve prediction tasks, I’m also interested in applying computational methods to improve our understanding of fundamental 
 biology systems. Such projects will be in collaboration with experimental biologists to generate data and validate hypotheses. 
 
-We identified a circRNA (circSfl) with a computational method developed by myself. In collaboration with colleagues at MPI for Biology of Ageing, 
+One example is a study about mRNA stability ([Cheng et al., 2017](https://rnajournal.cshlp.org/content/23/11/1648)). 
+Understanding the regulation of mRNA stability in the cell is crucial. For instance, at least two Covid19 vaccines are based on mRNA technologies
+([BioNTech](https://biontech.de/covid-19) and [Moderna](https://www.modernatx.com/modernas-work-potential-vaccine-against-covid-19)), 
+it is crucial to have mRNAs that translate efficiently and stable in the cell. 
+In this study I systematically searched for sequence determinants of mRNA stability with a linear mixed-effects model. 
+We also show that codon usage, which known to highly affect translation efficiency, also being the major determinants of mRNA stability.
+To the end, we are able to predict mRNA stability with R^2=0.59 solely from its sequence. 
+
+In another study, I identified a circRNA (circSfl) with a computational method developed by myself ([Cheng et al., 2016](https://doi.org/10.1093/bioinformatics/btv656)). In collaboration with colleagues at MPI for Biology of Ageing, 
 we showed that overexpression of circSfl can extend the lifespan of fruit flies ([Weigelt et al., 2020](https://www.sciencedirect.com/science/article/pii/S1097276520303968)). 
-In another study in collaboration with colleagues at MPI for Biophysical Chemistry, 
-we found and validated a 3’UTR motif ATATTC that destabilizes mRNA transcripts ([Cheng et al., 2017](https://rnajournal.cshlp.org/content/23/11/1648)). 
-The same study also found codon usage explains most of the mRNA half-life variability across genes.
+This is important since many ageing mechanisms are very conserved in human.
+
 
 ## Others
 Other than the above topics, I'm also interested in:
+
  1) Graph representation learning
  
  2) Biological sequence representation learning
