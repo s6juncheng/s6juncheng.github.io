@@ -10,11 +10,11 @@ redirect_from:
 
 {% include base_path %}
 
-I'm a researcher interested in machine learning for biomedicine.
+I'm a researcher interested in machine learning for biomedicine. I'm currently a research scientist at NEC labs. 
 I did my PhD at the Technical University of Munich (TUM) with [Julien Gagneur](https://www.in.tum.de/gagneurlab/home/) on computational biology. 
 I was also a visiting student with [Anshul Kundaje](https://sites.google.com/site/anshulkundaje/Home). I did a research internship at Amazon on contextual bandits for personalized recommendations.
 As a master student, I worked with [Christoph Dieterich](http://dieterichlab.org/) on circRNAs in Ageing and [Maria von Korff Schmising](https://www.mpipz.mpg.de/von_korff) on circadian clock of flowering time control.
-Currently I'm a research scientist at NEC labs. 
+
 
 Email: s6juncheng [at] gmail [dot] com
 
