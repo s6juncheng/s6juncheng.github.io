@@ -70,12 +70,12 @@ Understanding the regulation of mRNA stability in the cell is crucial. For insta
 ([BioNTech](https://biontech.de/covid-19) and [Moderna](https://www.modernatx.com/modernas-work-potential-vaccine-against-covid-19)), 
 it is crucial to have mRNAs that translate efficiently and stable in the cell. 
 In this study I systematically searched for sequence determinants of mRNA stability with a linear mixed-effects model. 
-We also show that codon usage, which known to highly affect translation efficiency, also being the major determinants of mRNA stability.
+We also show that codon usage, which is known to highly affect translation efficiency, also being the major determinant of mRNA stability.
 To the end, we are able to predict mRNA stability with R^2=0.59 solely from its sequence. 
 
 In another study, I identified a circRNA (circSfl) with a computational method developed by myself ([Cheng et al., 2016](https://doi.org/10.1093/bioinformatics/btv656)). In collaboration with colleagues at MPI for Biology of Ageing, 
 we showed that overexpression of circSfl can extend the lifespan of fruit flies ([Weigelt et al., 2020](https://www.sciencedirect.com/science/article/pii/S1097276520303968)). 
-This is important since many ageing mechanisms are very conserved in human.
+This is important since many ageing mechanisms are very conserved in humans.
 
 
 ## Others
