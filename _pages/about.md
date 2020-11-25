@@ -20,7 +20,7 @@ Email: s6juncheng [at] gmail [dot] com
 
 ## My research
 My research focuses on the development and application of machine learning methods on large-scale biological data for more precise understanding of human disease. 
-The methods can be used, for example, to diagnose genetic diseases, to predict cancer driver mutation, to stratify cancer patients, 
+The methods can be used, for example, to diagnose genetic diseases, to select biomarkers, to stratify cancer patients, 
 and to design effective vaccines. I’m passionate about drawing insights from complex biological data, developing methods to 
 drive innovative research or to resolve important challenges in biology. I’m also interested in pushing the state-of-the-art in machine learning.
 

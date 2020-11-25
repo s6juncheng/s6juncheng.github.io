@@ -77,6 +77,11 @@ In another study, I identified a circRNA (circSfl) with a computational method d
 we showed that overexpression of circSfl can extend the lifespan of fruit flies ([Weigelt et al., 2020](https://www.sciencedirect.com/science/article/pii/S1097276520303968)). 
 This is important since many ageing mechanisms are very conserved in humans.
 
+## Single-cell multiomics data integration
+In biomedical experiments, an increasing variety of “omics” data from patients are generated, such as transcriptomics, proteomics, ATAC-seq, etc. 
+A challenging task is how to integrate the different data modalities and represent them meaningfully in a data manifold that is optimal for 
+downstream applications. I explore this topic with the latest development in generative models.
+
 
 ## Others
 Other than the above topics, I'm also interested in:
@@ -87,6 +92,4 @@ Other than the above topics, I'm also interested in:
  
  3) RNA binding protein binding site prediction 
  
- 4) Single-cell multiomics data integration
- 
- 5) Data efficient machine learning methods
+ 4) Data efficient machine learning methods
