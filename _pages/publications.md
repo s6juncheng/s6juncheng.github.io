@@ -54,6 +54,9 @@ You can also find my articles on <a style="color:CornflowerBlue" href="https://s
 <a style="color:CornflowerBlue" href="https://www.biorxiv.org/content/10.1101/2020.04.21.052084v1.abstract">Artificial intelligence predicts the immunogenic landscape of SARS-CoV-2: toward universal blueprints for vaccine designs</a>.
 *Scientific Reports* (*In Press*). 2020
 
++ **Jun Cheng**, Kaïdre Bendjama, Karola Rittner, Brandon Malone 
+<a style="color:CornflowerBlue" href="https://www.biorxiv.org/content/10.1101/2020.11.24.396101v1">BERTMHC: Improves MHC-peptide class II interaction prediction with transformer and multiple instance learning</a>.
+*BioRxiv*, 2020. 
 
 ### Bioinformatics & Machine learning
 
