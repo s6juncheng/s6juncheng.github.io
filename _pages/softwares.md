@@ -21,11 +21,13 @@ MTSplice enhances MMSplice by predicting tissue-specific variant effect.
 Currently, Muhammed Hasan Çelik and I are maintaining the tool. 
 
 
-## [ggpval](https://s6juncheng.github.io/ggpval)
+## [ggpval](https://github.com/s6juncheng/ggpval)
 
 A R package to add statistical test and *P*-value annotations to ``ggpplot2``. 
 Currently, the user community and myself are maintaining the tool. 
 
+## [BERTMHC](https://github.com/s6juncheng/BERTMHC)
+A python package to re-train and predict with BERTMHC model, a transformer model to predict binding and presentation of peptides by MHC class II.
 
 ## [DCC](https://github.com/dieterich-lab/DCC)
 
