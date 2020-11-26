@@ -61,6 +61,11 @@ I'm interested in developing improved models for 1) peptide-MHC interaction pred
 ![](/images/immue.png)
 <sub>**Figure 3** Antigen presentation. MHC molecules present antigens on the cell surface to T-cells to activate immune response. </sub>
 
+Under this scope, I developed BERTMHC ([Cheng et al., 2020](https://www.biorxiv.org/content/10.1101/2020.11.24.396101v1)), 
+a model to predict the binding and presentation of peptides by MHC class II. The paper shows that unsupervised pretraining, 
+which is common in nature language processing, and our new probability re-weighted multiple instance learning algorithm improved previous
+state-of-the-art for this task.
+
 ## Improved Understanding of Biological Systems 
 Beyond developing new methods to achieve prediction tasks, I’m also interested in applying computational methods to improve our understanding of fundamental 
 biology systems. Such projects will be in collaboration with experimental biologists to generate data and validate hypotheses. 
@@ -93,3 +98,5 @@ Other than the above topics, I'm also interested in:
  3) RNA binding protein binding site prediction 
  
  4) Data efficient machine learning methods
+ 
+ 5) Efficient approximate inference applied to biological problems.
