@@ -47,11 +47,10 @@ tissues (left boxes), and for all de novo mutations (left panel) or de novo muta
 The predicted effect sizes are more pronounced for brain tissues.</sub>
 
 
-
-## Immunogenicity Prediction for Vaccine Design
+## Computational Immunology
 Genetic mutations in cancer cells are the source of neoantigens, which can be used to design vaccines. 
 Because neoantigen are truly tumor specific, they are ideal targets for cancer immunotherapies. 
-Besides predicting the functional and disease impact of mutations, I’m also interested in integrating variant effect predictors with immunogenicity predicting models to design therapeutic vaccines.
+Besides predicting the functional and disease impact of mutations, I’m also interested in developing immunogenicity predicting models to design therapeutic vaccines.
 
 Adaptive immunity is triggered by a series of processes involving antigen processing, presentation and recognition. 
 Each of the steps is highly selective and specific (Figure 3). Machine learning models have long been applied to model different immune 
