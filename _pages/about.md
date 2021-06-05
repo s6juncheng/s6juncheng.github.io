@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-{% include base_path %}
 
 I am currently a research scientist at [DeepMind](https://deepmind.com/). I work on machine learning for biomedicine. 
 I did my PhD at the Technical University of Munich (TUM) with [Julien Gagneur](https://www.in.tum.de/gagneurlab/home/) on computational biology. 
