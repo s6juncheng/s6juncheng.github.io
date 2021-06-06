@@ -12,7 +12,7 @@ redirect_from:
 I am currently a research scientist at [DeepMind](https://deepmind.com/). I work on machine learning for biomedicine. 
 I did my PhD at the Technical University of Munich (TUM) with [Julien Gagneur](https://www.in.tum.de/gagneurlab/home/) on computational biology. 
 I was also a visiting student with [Anshul Kundaje](https://sites.google.com/site/anshulkundaje/Home) at Stanford. 
-For more detailed introduction about my research please refer to my [Google Scholar](https://scholar.google.de/citations?user=nfCxSdcAAAAJ&hl=en) 
+Please refer to my [Google Scholar](https://scholar.google.de/citations?user=nfCxSdcAAAAJ&hl=en) 
 for a complete list of my publications.
 
 Email: s6juncheng [at] gmail [dot] com
