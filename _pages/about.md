@@ -58,13 +58,14 @@ Email: s6juncheng [at] gmail [dot] com
 
 ### Computational Immunology
 
-+ Malone B, Simovski B, Moline C, **Cheng J**, Gheorghe M, Fontenelle H, Vardaxis I, Tennoe S, Malmberg JA, Stratford R, Clancy T.
-  <a href="https://www.nature.com/articles/s41598-020-78758-5">Artificial intelligence predicts the immunogenic landscape of SARS-CoV-2: toward universal blueprints for vaccine designs</a>.
-  *Scientific Reports*. 2020
-
 + **Jun Cheng**, Kaïdre Bendjama, Karola Rittner, Brandon Malone
   <a href="https://doi.org/10.1093/bioinformatics/btab422">BERTMHC: Improves MHC-peptide class II interaction prediction with transformer and multiple instance learning</a>.
   *Bioinformatics*, 2021.
+
++ Malone B, Simovski B, Moline C, **Cheng J**, Gheorghe M, Fontenelle H, Vardaxis I, Tennoe S, Malmberg JA, Stratford R, Clancy T.
+  <a href="https://www.nature.com/articles/s41598-020-78758-5">Artificial intelligence predicts the immunogenic landscape of SARS-CoV-2: toward universal blueprints for vaccine designs</a>.
+  *Scientific Reports*. 2020
+  
 
 ### Bioinformatics & Machine learning
 
@@ -74,7 +75,7 @@ Email: s6juncheng [at] gmail [dot] com
 
 + Avsec Ž, Barekatain M, **Cheng J**, Gagneur J.
   <a href="https://doi.org/10.1093/bioinformatics/btx727">Modeling positional effects of regulatory sequences with spline transformations increases prediction accuracy of deep neural networks</a>.
-  Bioinformatics. 2018 Apr 15;34(8):1261-9.
+  *Bioinformatics*. 2018 Apr 15;34(8):1261-9.
 
 ----
 
