@@ -9,9 +9,7 @@ redirect_from:
 ---
 
 
-I am currently a research scientist at [DeepMind](https://deepmind.com/). I work on machine learning for biomedicine. 
-I did my PhD at the Technical University of Munich (TUM) with [Julien Gagneur](https://www.in.tum.de/gagneurlab/home/) on computational biology. 
-I was also a visiting student with [Anshul Kundaje](https://sites.google.com/site/anshulkundaje/Home) at Stanford. 
+I am currently a senior research scientist at [DeepMind](https://deepmind.com/). I work on deciphering the human genome with machine learning. My previous work involved modeling RNA splicing and degradation, as well as predicting variant effect for coding and non-coding variants. I did my PhD at the Technical University of Munich (TUM) with [Julien Gagneur](https://www.in.tum.de/gagneurlab/home/) on computational biology. 
 Please refer to my [Google Scholar](https://scholar.google.de/citations?user=nfCxSdcAAAAJ&hl=en) 
 for a complete list of my publications.
 
@@ -22,6 +20,8 @@ Email: s6juncheng [at] gmail [dot] com
 ## Publications
 
 ### Genetic variant interpretation
+
++ **Cheng, J.**, Novati, G., Pan, J., Bycroft, C., Žemgulytė, A., Applebaum, T., Pritzel, A., Wong, L.H., Zielinski, M., Sargeant, T., Schneider, R.G., Andrew, S., Jumper, J., Hassabis, D., **Kohli, P.**, **Avsec, Ž.**, 2023. Accurate proteome-wide missense variant effect prediction with AlphaMissense. *Science*, 381(6664).
 
 + **Cheng, J.**, Celik, M.H., Kundaje, A. and Gagneur, J.,
   <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02273-7">MTSplice predicts effects of genetic variants on tissue-specific splicing</a>.
